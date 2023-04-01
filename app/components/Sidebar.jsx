@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-// import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const socials = [
   {
     id: 1,
-    icon: "<FaGithub />",
+    icon: <FaGithub />,
     link: "https://github.com/vinodjarare/",
   },
   {
     id: 2,
-    icon: "<FaLinkedinIn />",
+    icon: <FaLinkedinIn />,
     link: "https://www.linkedin.com/in/vinod-jarare-06b95a224",
   },
 ];

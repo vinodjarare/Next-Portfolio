@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import Head from "next/head";
 import Link from "next/link";
 import Skills from "./components/skills/Skills";
 
