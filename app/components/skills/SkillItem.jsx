@@ -6,7 +6,7 @@ const SkillItem = (props) => {
     <div className="w-full md:w-1/2">
       <div className="mb-4 md:mx-4 ">
         <div className="flex justify-between items-center mb-1">
-          <h5 className="text-md text-gray-400 font-light">{title}</h5>
+          <h5 className="text-md text-gray-950 font-light">{title}</h5>
           <span className="text-md text-purple-600 font-bold">
             {percentage}
           </span>

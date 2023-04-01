@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import Skills from "./components/skills/Skills";
 
@@ -36,8 +35,8 @@ export default function Home() {
               <div className="my-4" key={e.id}>
                 <p className="text-purple-400">{e.year}</p>
                 <h6 className="text-gray-500">{e.institute}</h6>
-                <p className="text-gray-400">{e.percentage}%</p>
-                <p className="text-gray-400 font-light">{e.desc}</p>
+                <p className="text-gray-950">{e.percentage}%</p>
+                <p className="text-gray-950 font-light">{e.desc}</p>
               </div>
             ))}
           </div>

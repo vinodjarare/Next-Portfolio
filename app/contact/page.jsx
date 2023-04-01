@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+
+export const metadata = {
+  title: "Vinod Jarare | contacts",
+};
 const page = () => {
   return (
     <section className="pb-10 w-full">

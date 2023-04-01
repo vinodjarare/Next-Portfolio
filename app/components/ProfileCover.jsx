@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const ProfileCover = () => {
   return (
-    <div className="h-60 w-full">
+    <div className="h-60 w-full relative">
       <Image
         src={"/cover-image.jpg"}
         alt="cover"
-        width={100}
-        height={100}
+        fill={true}
+        priority={true}
         className="w-full h-full object-cover object-center"
       />
     </div>

@@ -1,3 +1,4 @@
+// "use client";
 import Link from "next/link";
 
 const navbarData = [
@@ -44,7 +45,6 @@ const LinkItem = (props) => {
     <li className="m-3 lg:mx-5">
       <Link
         href={to}
-        // ClassName="text-purple-600"
         className={"text-gray-800 text-medium hover:text-purple-600 "}
       >
         {title}

@@ -11,7 +11,7 @@ const socials = [
   {
     id: 2,
     icon: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/vinod-jarare-06b95a224",
+    link: "https://www.linkedin.com/in/vinod-jarare",
   },
 ];
 
@@ -24,12 +24,13 @@ const Sidebar = () => {
           height={100}
           src={"/person.png"}
           alt="profile"
+          priority={true}
           className="w-full"
         />
       </div>
       <div className="text-center">
         <h1 className="text-xl text-gray-800 font-bold mb-1">Vinod Jarare</h1>
-        <p className="text-sm text-gray-400 mb-3">
+        <p className="text-sm text-gray-950 font-medium mb-3">
           <Link
             href="linkedin.com/in/vinod-jarare"
             className="text-purple-600 pl-1"
@@ -54,13 +55,17 @@ const Sidebar = () => {
         <h3 className="text-md mb-2 uppercase font-medium text-gray-800">
           About Me
         </h3>
-        <p className="text-gray-400 text font-light leading-relaxed">
-          Hi,
-          <br /> I am Vinod Jarare . <br /> I am strong in designing and
-          integration with intuitive problem-solving skills. Proficient in HTML,
-          CSS, JavaScript, React, SASS, Bootstrap, nodejs. Have a strong focus
-          on efficient designs. <br />
-          Ability to evaluate and manupulate designs as per client expectation.
+        <p className="text-gray-950 text-base  leading-relaxed">
+          Hi there! <br /> My name is Vinod Jarare and I&apos;m a web developer
+          and designer with a passion for creating intuitive, efficient designs.
+          I specialize in HTML, CSS, JavaScript, React, SASS, Bootstrap, and
+          nodejs, and have a strong focus on delivering high-quality work that
+          exceeds client expectations.
+          <br />
+          As a problem-solver at heart, I love the challenge of evaluating and
+          manipulating designs to meet specific client needs. Whether it&apos;s
+          a new website or an update to an existing one, I&apos;m committed to
+          delivering exceptional results that drive business success.
         </p>
       </div>
     </aside>

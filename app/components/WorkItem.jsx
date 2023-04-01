@@ -10,9 +10,7 @@ const WorkItem = (props) => {
         <div className="relative mb-6 w-full h-48 bg-purple-200 rounded-md overflow-hidden">
           <Image
             src={image}
-            width={100}
-            height={100}
-            widt
+            fill={true}
             alt="coverImage"
             className="w-full h-full object-cover object-center"
           />
@@ -32,7 +30,7 @@ const WorkItem = (props) => {
           </div>
         </div>
         <h3 className="text-lg font-medium text-gray-800 mb-2">{title}</h3>
-        <p className="text-gray-400 lg:h-32 xl:h-28">{description}</p>
+        <p className="text-gray-950 lg:h-32 xl:h-28">{description}</p>
       </div>
     </div>
   );

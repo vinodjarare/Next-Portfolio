@@ -1,6 +1,10 @@
 import { FaBootstrap, FaCode, FaHtml5, FaReact } from "react-icons/fa";
 import ServiceItem from "../components/ServiceItem";
 
+export const metadata = {
+  title: "Vinod Jarare | services",
+};
+
 const page = () => {
   const serviceData = [
     {

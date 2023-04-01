@@ -1,5 +1,9 @@
 import WorkItem from "../components/WorkItem";
 
+export const metadata = {
+  title: "Vinod Jarare | work",
+};
+
 const page = () => {
   const portfolioData = [
     {
