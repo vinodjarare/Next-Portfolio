@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Skills from "./components/skills/Skills";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   const edu = [
     {
