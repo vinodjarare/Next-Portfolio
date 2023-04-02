@@ -1,20 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-
-const socials = [
-  {
-    id: 1,
-    icon: <FaGithub />,
-    link: "https://github.com/vinodjarare/",
-  },
-  {
-    id: 2,
-    icon: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/vinod-jarare",
-  },
-];
-
+import { socials } from "../data";
 const Sidebar = () => {
   return (
     <aside className="sticky top-0 bg-white md:mx-8 lg:mx-4 mb-8 p-6 shadow-md rounded-md -mt-40">

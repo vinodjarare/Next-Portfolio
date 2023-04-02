@@ -1,29 +1,5 @@
-// "use client";
 import Link from "next/link";
-
-const navbarData = [
-  {
-    id: 1,
-    title: "About",
-    to: "/",
-  },
-  {
-    id: 2,
-    title: "Services",
-    to: "/services",
-  },
-  {
-    id: 3,
-    title: "Works",
-    to: "/works",
-  },
-
-  {
-    id: 4,
-    title: "Contact",
-    to: "/contact",
-  },
-];
+import { navbarData } from "../data";
 
 const Navbar = () => {
   return (

@@ -1,28 +1,7 @@
 import Link from "next/link";
 import Skills from "./components/skills/Skills";
-
+import { edu, certificate } from "./data";
 export default function Home() {
-  const edu = [
-    {
-      id: 1,
-      year: "2018-21",
-      institute: "Deogiri College, Aurangabad",
-      percentage: 79.9,
-      desc: "Bachelor of science in Information Technology",
-    },
-  ];
-  const certificate = [
-    {
-      id: 1,
-      title: "Responsive Web Design by freecodecamp",
-      link: "//freecodecamp.org/certification/fccc31301b4-0746-4c3d-b244-a728b0bdea43/responsive-web-design",
-    },
-    {
-      id: 2,
-      title: "Front End Development Libraries by freecodecamp",
-      link: "https://freecodecamp.org/certification/fccc31301b4-0746-4c3d-b244-a728b0bdea43/front-end-development-libraries",
-    },
-  ];
   return (
     <section className="py-8">
       <div className="flex flex-wrap md:px-4">

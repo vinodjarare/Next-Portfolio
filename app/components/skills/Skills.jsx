@@ -1,47 +1,5 @@
 import SkillItem from "./SkillItem";
-
-const skillData = [
-  {
-    id: 1,
-    title: "Html, Css, Scss",
-    percentage: "95%",
-  },
-  {
-    id: 2,
-    title: "Bootstrap",
-    percentage: "80%",
-  },
-  {
-    id: 3,
-    title: "TailwindCSS",
-    percentage: "80%",
-  },
-  {
-    id: 4,
-    title: "Javascript",
-    percentage: "70%",
-  },
-  {
-    id: 5,
-    title: "ReactJS",
-    percentage: "80%",
-  },
-  {
-    id: 6,
-    title: "Node js",
-    percentage: "70%",
-  },
-  {
-    id: 7,
-    title: "MongoDb",
-    percentage: "70%",
-  },
-  {
-    id: 8,
-    title: "Git, Github",
-    percentage: "80%",
-  },
-];
+import { skillData } from "@/app/data";
 
 const Skills = () => {
   return (
