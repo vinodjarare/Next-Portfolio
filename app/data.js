@@ -48,12 +48,12 @@ export const skillData = [
   {
     id: 1,
     title: "Html, Css, Scss",
-    percentage: "95%",
+    percentage: "90%",
   },
   {
     id: 2,
     title: "Bootstrap",
-    percentage: "80%",
+    percentage: "75%",
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ export const skillData = [
   {
     id: 4,
     title: "Javascript",
-    percentage: "70%",
+    percentage: "80%",
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ export const skillData = [
   },
   {
     id: 7,
-    title: "MongoDb",
+    title: "MongoDB",
     percentage: "70%",
   },
   {
@@ -156,13 +156,13 @@ export const portfolioData = [
 export const certificate = [
   {
     id: 1,
-    title: "Responsive Web Design by freecodecamp",
-    link: "//freecodecamp.org/certification/fccc31301b4-0746-4c3d-b244-a728b0bdea43/responsive-web-design",
+    title: "Front End Development Libraries by freecodecamp",
+    link: "https://freecodecamp.org/certification/vinod_jarare/front-end-development-libraries",
   },
   {
     id: 2,
-    title: "Front End Development Libraries by freecodecamp",
-    link: "https://freecodecamp.org/certification/fccc31301b4-0746-4c3d-b244-a728b0bdea43/front-end-development-libraries",
+    title: "Back End Development and APIs by freecodecamp",
+    link: "https://freecodecamp.org/certification/vinod_jarare/back-end-development-and-apis",
   },
 ];
 
