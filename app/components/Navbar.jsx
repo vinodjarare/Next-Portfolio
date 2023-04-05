@@ -1,5 +1,6 @@
-import Link from "next/link";
+"use client";
 import { navbarData } from "../data";
+import LinkItem from "./LinkItem";
 
 const Navbar = () => {
   return (
@@ -14,17 +15,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-const LinkItem = (props) => {
-  const { title, to } = props.el;
-  return (
-    <li className="m-3 lg:mx-5">
-      <Link
-        href={to}
-        className={"text-gray-800 text-medium hover:text-purple-600 "}
-      >
-        {title}
-      </Link>
-    </li>
-  );
-};
